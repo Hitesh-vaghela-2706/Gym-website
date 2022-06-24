@@ -1,0 +1,38 @@
+.text{
+    margin:68px -20px 0px -8px;
+    padding: 3px;
+    text-align: center;
+    background-color: #396edf;
+    color: white;
+}
+.form-container{
+    margin:auto;
+    margin-top: 10px;
+}
+.h2{
+    font-size: 40px;
+    text-align: center;
+}
+.required{
+    color: red;
+}
+.button {
+    color: white;
+    background: purple;
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+@media screen and (max-width:476px) {
+    .r1{
+        padding: 10px;
+    }
+    .text{
+        margin:66px 0px 0px 0px;
+    }
+    .h2{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" a="IE=edge">
+    <meta name="viewport" a="width=device-width, initial-scale=1.0">
+    <title> HOME PAGE </title>
+    <link rel="stylesheet" href="NAVBAR.CSS">
+    <link rel="stylesheet" href="INDEX.CSS">
+    <link rel="stylesheet" href="CONTACT.CSS">
+    <link rel="stylesheet" href="ABOUT.CSS">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="div">   
+                <ul class="ul">
+                    <li class="li"><a class="a" href="INDEX.HTML">Home</a></li>
+                    <li class="li"><a class="a" href="ABOUT.HTML">About</a></li>
+                    <li class="li"><a class="a" href="CONTACT.HTML">Contact</a></li>
+                </ul>
+            </div> 
+        </nav>
+    </header>
+    <div class="text r1">
+        <h1> Welcome to Our Gym registration Website </h1>
+    </div>
+    
+    <div class="form-container w-50 m-auto">
+        <form onsubmit="alert('form succesfully submited')">              
+            <h2 class="h2"> REGISTRATION FORM</h2>
+                <label for="name"> Name<sup class="required">*</sup></label>
+                <input type="text" name="name1" placeholder=" First name" class="form-control" required><br>
+                <input type="text" name="name2" placeholder=" Middle name" class="form-control" required><br>
+                <input type="text" name="name3" placeholder=" Surname" class="form-control" required><br>
+                
+                <label for="age"> Age<sup class="required">*</sup></label>
+                <input type="text" name="age" placeholder="Enter your Age" class="form-control" required><br>
+
+                <label for="address"> Address<sup class="required">*</sup></label>
+                <input type="text" name="add1" placeholder="Street address" class="form-control" required><br>
+                <input type="text" name="add2" placeholder="City" class="form-control" required><br>
+                <input type="text" name="add3" placeholder="State" class="form-control" required><br>
+
+                <label for="gender"> Gender<sup class="required">*</sup></label>
+                <lable> Male </lable> <input type="radio" name="gender" value="Male" checked>
+                <label> Female </label> <input type="radio" name="gender" value="Male"><br><br>
+
+                <label for="contact"> Contact details<sup class="required">*</sup></label>
+                <input type="email" name="email" placeholder="Enter your email" class="form-control" required><br>
+                <input type="phone" name="phone" placeholder="Enter your phone no." class="form-control" required><br>
+
+                <input type="checkbox" name="checkbox" required> <label> I have Read all my deatails carefully</label><br><br>
+                <button class="button">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
